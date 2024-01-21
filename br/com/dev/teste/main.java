@@ -18,7 +18,7 @@ public class main {
             System.out.println("Digite os dados do " + (i+1) + "o contribuinte:");
             listaContribuinte[i] = createTaxPayer(leitura);
         }
-
+        leitura.close();
         int ordem =1;
         for(TaxPayer contribuinte : listaContribuinte) {
             System.out.println("\nResumo do"+ ordem +"o contribuinte:");
